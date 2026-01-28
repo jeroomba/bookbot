@@ -27,3 +27,6 @@ def sorted_dictionaries(book_text):
             pair_dictionary.append({"char": letter, "num": single_dictionary[letter]})
     pair_dictionary.sort(reverse=True, key=sort_on)
     return pair_dictionary
+
+
+# Test to check sync
